@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18.x
+      - name: Go to package folder
+        run: cd payment-gateway-sdk
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Release
