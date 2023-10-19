@@ -1,0 +1,11 @@
+{
+  "name": "my-awesome-commerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@tenlisboa/payment-gateway-sdk": "^1.0.1",
+    "express": "^4.18.2"
+  }
+}
